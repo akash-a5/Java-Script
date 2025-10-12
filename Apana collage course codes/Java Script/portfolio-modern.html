@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Akash Nayak | Portfolio</title>
+  <link rel="stylesheet" href="portfolio-modern.css">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Roboto&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="hero">
+    <div class="hero-content">
+      <img src="https://avatars.githubusercontent.com/u/9919?s=200&v=4" alt="Profile" class="profile-pic">
+      <h1>Akash Nayak</h1>
+      <p class="subtitle">Web Developer & JavaScript Enthusiast</p>
+      <a href="#contact" class="cta-btn">Contact Me</a>
+    </div>
+  </div>
+  <nav class="main-nav">
+    <a href="portfolio-modern.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="projects.html">Projects</a>
+    <a href="#contact">Contact</a>
+  </nav>
+  <section id="about" class="section">
+    <h2>About Me</h2>
+    <p>
+      Hi! I'm Akash, a passionate web developer who loves building interactive and visually appealing web applications. I enjoy learning new technologies and solving real-world problems with code.
+    </p>
+  </section>
+  <section id="projects" class="section">
+    <h2>Featured Projects</h2>
+    <div class="project-grid">
+      <div class="project-card">
+        <h3>Bulb Toggle Demo</h3>
+        <p>Toggle a light bulb image using JavaScript and DOM manipulation.</p>
+      </div>
+      <div class="project-card">
+        <h3>Array Practice</h3>
+        <p>Practice scripts demonstrating array methods like slice, splice, and more.</p>
+      </div>
+      <div class="project-card">
+        <h3>Portfolio Website</h3>
+        <p>This modern portfolio site, built with HTML, CSS, and JavaScript.</p>
+      </div>
+    </div>
+  </section>
+  <section id="contact" class="section contact-section">
+    <h2>Contact</h2>
+    <form class="contact-form" action="#" method="POST" onsubmit="return modernContact(event)">
+      <div class="form-group">
+        <input type="text" id="name" name="name" placeholder="Your Name" required>
+      </div>
+      <div class="form-group">
+        <input type="email" id="email" name="email" placeholder="Your Email" required>
+      </div>
+      <div class="form-group">
+        <textarea id="message" name="message" rows="4" placeholder="Your Message" required></textarea>
+      </div>
+      <button type="submit" class="cta-btn">Send Message</button>
+    </form>
+  </section>
+  <footer>
+    <p>&copy; 2025 Akash Nayak. All rights reserved.</p>
+  </footer>
+  <script src="portfolio-modern.js"></script>
+</body>
+</html>

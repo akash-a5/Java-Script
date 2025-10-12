@@ -1,0 +1,1 @@
+let month = ["january", "july", "march", "august"];
